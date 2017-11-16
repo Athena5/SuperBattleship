@@ -1,0 +1,92 @@
+span {
+	border: 1px #000000;
+	float: center;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+span form {
+	display: inline-block;
+	vertical-align: top;
+	align-self: center;
+	width: 300px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+span table {
+	display: inline-block;
+	vertical-align: top;
+}
+
+form p {
+	width: 300px;
+	font-family: "Arial";
+	font-style: bold;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.shipButton {
+	align-self: center;
+	position: relative;
+	text-align: center;
+	width: 200px;
+}
+
+.shipLabel {
+	width: 80px;
+	text-align: left;
+}
+
+.customOptionsLabel{
+	text-align: left;
+	float: left
+}
+
+.customOptionsInput{
+	align-self: right;
+	align-content: right;
+	align-items: right;
+	text-align: right;
+	float: right;
+	width: 60px;
+}
+
+.newGameButton {
+	width: 100px;
+}
+
+.gridSquare {
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	width: 13px;
+	height: 13px;
+}
+
+#main {
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#customOptions {
+	margin: 20px;
+}
+
+#shipList {
+	width: 300px;
+	margin-bottom: 20px;
+}

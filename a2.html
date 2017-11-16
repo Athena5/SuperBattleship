@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Super Battleship</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="a2.css" rel="stylesheet" type="text/css">
+		<script src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+		<script src="SBConstants.js"></script>
+		<script src="SuperBattleship.js"></script>
+		<script src="a2Player.js"></script>
+		<script src="athena25AI.js"></script>
+		<script src="athena25.js"></script>
+	</head>
+	<body>
+		<div id="main">	
+			<span>
+				<form id="userControls">
+					<h1>Super<br>Battleship</h1>
+					<br>
+					<div id="shipList">
+						<input name="shipType" type="radio" id="carrier" value="Carrier">
+						<label class="shipLabel" for="carrier">Carrier</label>
+						<br>
+						<input name="shipType" type="radio" id="battleship" value="Battleship">
+						<label class="shipLabel" for="battleship">Battleship</label>
+						<br>
+						<input name="shipType" type="radio" id="cruiser" value="Cruiser">
+						<label class="shipLabel" for="cruiser">Cruiser</label>
+						<br>
+						<input name="shipType" type="radio" id="submarine" value="Submarine">
+						<label class="shipLabel" for="submarine">Submarine</label>
+						<br>
+						<input name="shipType" type="radio" id="destroyer" value="Destroyer">
+						<label class="shipLabel" for="destroyer">Destroyer</label>
+					</div>
+					<button class="shipButton" type="button" id="moveForward">Move Forward</button>
+					<br>
+					<button class="shipButton" type="button" id="moveBackward">Move Backward</button>
+					<br>
+					<button class="shipButton" type="button" id="rotateCW">Rotate Clockwise</button>
+					<br>
+					<button class="shipButton" type="button" id="rotateCCW">Rotate Counterclockwise</button>
+					<br>
+					<button class="shipButton" type="button" id="viewShipInfo">View Ship Information</button>
+					<br>
+					<br>
+					<br>
+					<p id="output"></p>
+					<br>
+					<p id="shipInfo"></p>
+				</form>
+				<table id="gameBoard">
+				</table>
+			</span>
+		</div>
+	</body>
+</html>
